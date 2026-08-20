@@ -1,0 +1,4 @@
+Failed to construct transformer:  Error: Failed to start watch mode.
+    at Timeout._onTimeout (C:\Users\kofow\Desktop\Forever Affirmed\node_modules\expo\node_modules\@expo\metro-file-map\build\Watcher.js:163:63)
+    at listOnTimeout (node:internal/timers:585:17)
+    at process.processTimers (node:internal/timers:521:7)

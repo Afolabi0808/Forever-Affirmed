@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Forever Affirmed",
+    "slug": "forever-affirmed",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "foreveraffirmed",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      "expo-secure-store",
+      [
+        "expo-notifications",
+        {
+          "color": "#F3B562"
+        }
+      ],
+      [
+        "expo-audio",
+        {
+          "enableBackgroundPlayback": true,
+          "recordAudioAndroid": false
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 3,
+      "package": "com.foreveraffirmed.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#071A3D",
+        "foregroundImage": "./assets/branding/app-icon.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/branding/app-icon.png"
+    },
+    "experiments": { "typedRoutes": true }
+  }
+}
