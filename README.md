@@ -27,8 +27,7 @@ application for reading and scheduling multilingual declarations.
 - Provider-independent speech and audio interfaces with
   verification-aware fallback behaviour.
 - Accessible light and dark design system.
-- Automated tests covering UTC+13/UTC+14, DST, validation, persistence,
-  notifications, audio fallback and playback state.
+- Notifications, audio fallback and playback state.
 
 ## Technology
 
