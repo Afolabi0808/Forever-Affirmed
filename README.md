@@ -9,7 +9,7 @@ application for reading and scheduling multilingual declarations.
 
 <p align="center">
   <img
-    src="assets/screenshots/declarations.png"
+    src="declarations.png"
     alt="Forever Affirmed multilingual declarations screen"
     width="320"
   />
